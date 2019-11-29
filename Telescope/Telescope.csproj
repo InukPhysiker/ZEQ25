@@ -165,7 +165,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)\iOptronZEQ25\$(OutDir)\$(TargetFileName)"
-
+"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "$(SolutionDir)\ZEQ25 Setup.iss"
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
