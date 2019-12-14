@@ -106,7 +106,8 @@
             this.labelDriverId.Name = "labelDriverId";
             this.labelDriverId.Size = new System.Drawing.Size(159, 25);
             this.labelDriverId.TabIndex = 2;
-            this.labelDriverId.Text = global::ASCOM.iOptronZEQ25.Properties.Settings.Default.DriverId;
+            //this.labelDriverId.Text = global::ASCOM.iOptronZEQ25.Properties.Settings.Default.DriverId;
+            this.labelDriverId.Text = "DriverId";
             this.labelDriverId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // comboBoxSpeed
