@@ -59,5 +59,15 @@ namespace ASCOM.iOptronZEQ25.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ASCOM {
+            get {
+                object obj = ResourceManager.GetObject("ASCOM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
