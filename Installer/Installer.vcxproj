@@ -82,6 +82,9 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <CleanCommandLine>del "$(SolutionDir)Installer\iOptronZEQ25 Setup.exe"</CleanCommandLine>
+  </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
