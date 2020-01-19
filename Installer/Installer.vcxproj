@@ -85,8 +85,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <CleanCommandLine>del "$(SolutionDir)Installer\iOptronZEQ25 Setup.exe"</CleanCommandLine>
   </PropertyGroup>
-  <ItemGroup>
-  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <PostBuildEvent>
       <Command>"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "$(SolutionDir)Installer\iOptronZEQ25 Setup.iss"</Command>
