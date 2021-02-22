@@ -34,13 +34,13 @@ Name: "{commoncf}\ASCOM\Uninstall\Telescope\iOptronZEQ25"
 ; TODO: Add subfolders below {app} as needed (e.g. Name: "{app}\MyFolder")
 
 [Files]
-Source: "C:\GitHub\ZEQ25\iOptronZEQ25\bin\Release\ASCOM.iOptronZEQ25.Server.exe"; DestDir: "{app}"
-Source: "C:\GitHub\ZEQ25\Telescope\bin\Release\ASCOM.iOptronZEQ25.Telescope.dll"; DestDir: "{app}"
+Source: "..\iOptronZEQ25\bin\Release\ASCOM.iOptronZEQ25.Server.exe"; DestDir: "{app}"
+Source: "..\Telescope\bin\Release\ASCOM.iOptronZEQ25.Telescope.dll"; DestDir: "{app}"
 
 ; AfterInstall: RegASCOM()
 
 ; Require a read-me HTML to appear after installation, maybe driver's Help doc
-Source: "C:\GitHub\ZEQ25\iOptronZEQ25\ReadMe.htm"; DestDir: "{app}"; Flags: isreadme
+; Source: "..\iOptronZEQ25\ReadMe.htm"; DestDir: "{app}"; Flags: isreadme
 ; TODO: Add other files needed by your driver here (add subfolders above)
 
 ; Only if driver is .NET
